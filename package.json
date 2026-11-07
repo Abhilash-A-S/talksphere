@@ -1,0 +1,5 @@
+{
+  "name": "talksphere", "private": true, "version": "0.1.0", "workspaces": ["frontend", "backend"],
+  "scripts": {"dev:frontend":"npm run start -w frontend", "dev:backend":"npm run start:dev -w backend", "build":"npm run build -w backend && npm run build -w frontend", "test":"npm run test -w backend"},
+  "engines":{"node":">=22"}
+}
